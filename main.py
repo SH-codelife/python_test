@@ -9,8 +9,8 @@ from apache_beam.io.gcp.internal.clients import bigquery
 import argparse
 
 options = PipelineOptions(
-    #project="york-cdf-start", #Jenkins will need
-    #region="us-central1", #Jenkins will need
+    project="york-cdf-start", #Jenkins will need
+    region="us-central1", #Jenkins will need
     temp_location="gs://sh_temp_test",
     job_name='sonja_pipeline'
 )
